@@ -12,7 +12,7 @@ Este repositorio contiene un servidor Express que implementa autenticación JWT 
 
 1. Clona este repositorio:
 
-   git clone https://github.com/ely2547/Backend_3.1.git
+   git clone [https://github.com/arrayz-code/backend3.2](https://github.com/arrayz-code/backend3.2)
 
 Instala las dependencias en ambas carpetas back3.2 y back3.2_crud-operations ejecutando el siguiente comando en cada una:
 
