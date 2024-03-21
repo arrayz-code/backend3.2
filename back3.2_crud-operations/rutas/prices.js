@@ -7,7 +7,7 @@ router.use(cors());
 router.use(express.json());
 
 // Conexión a MongoDB
-mongoose.connect('mongodb+srv://anggemarigi:Pancho20.@cluster2.vhsetpj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster2');
+mongoose.connect('mongodb://localhost/hoteldb');
 
 // Esquema de Mongoose para la habitación
 const roomSchema = new mongoose.Schema({

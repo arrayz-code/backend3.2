@@ -15,7 +15,7 @@ router.use(cors());
 router.use(express.json());
 
 // Conectar a la base de datos de MongoDB con Mongoose
-mongoose.connect('mongodb+srv://anggemarigi:Pancho20.@cluster2.vhsetpj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster2');
+mongoose.connect('mongodb://localhost/hoteldb');
 
 // Crear un esquema de Mongoose para los datos de reserva
 const bookingSchema = new mongoose.Schema({

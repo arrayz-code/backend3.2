@@ -11,7 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // Conectamos con la base de datos
-mongoose.connect('mongodb+srv://anggemarigi:Pancho20.@cluster2.vhsetpj.mongodb.net/?retryWrites=true&w=majority'
+mongoose.connect('mongodb://localhost/hoteldb'
 )
 .then(() => console.log("Database connected"))
 .catch((err) => console.error(err));

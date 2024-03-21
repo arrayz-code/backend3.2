@@ -38,7 +38,7 @@ const serviceSchema = new mongoose.Schema({
 const Service = mongoose.model('Service', serviceSchema);
 
 // Conexión a MongoDB
-mongoose.connect('mongodb+srv://anggemarigi:Pancho20.@cluster2.vhsetpj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster2');
+mongoose.connect('mongodb://localhost/hoteldb');
 
 // Rutas CRUD
 router.post('/services', upload.single('image'), (req, res) => {
